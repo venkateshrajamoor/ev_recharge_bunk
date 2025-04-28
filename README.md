@@ -34,28 +34,28 @@ Electric Vehicle Recharge Bunk
       5.Free up booked slots when users finish charging
 
 🛠️ Technologies Used
-    Frontend: HTML, CSS, JavaScript, React.js, TailwindCSS
-    
-    Backend: Firebase Firestore (Database), Firebase Authentication
+            Frontend: HTML, CSS, JavaScript, React.js, TailwindCSS
+            
+            Backend: Firebase Firestore (Database), Firebase Authentication
 
 Deployment: Vercel
 
 📋 Workflow Summary
-    User Registration/Login:
-    Users register or log in using Firebase Authentication.
-    
-    EV Bunk Creation (Admin Panel):
-    Admins can create EV bunk locations by providing details like name, address, latitude, longitude, available slots, and Google Maps link.
-    
-    Finding Nearby Bunks (User Dashboard):
-    Users can find EV bunks within a 30 km radius based on their current location using geolocation APIs.
-    
-    Slot Booking (User Panel):
-    Users view available slots and can book a slot. Once a slot is booked:
-    
-    Slot information is saved in the bookedSlots collection in Firebase.
-    
-    Available slots are updated dynamically.
+            User Registration/Login:
+            Users register or log in using Firebase Authentication.
+            
+            EV Bunk Creation (Admin Panel):
+            Admins can create EV bunk locations by providing details like name, address, latitude, longitude, available slots, and Google Maps link.
+            
+            Finding Nearby Bunks (User Dashboard):
+            Users can find EV bunks within a 30 km radius based on their current location using geolocation APIs.
+            
+            Slot Booking (User Panel):
+            Users view available slots and can book a slot. Once a slot is booked:
+            
+            Slot information is saved in the bookedSlots collection in Firebase.
+            
+            Available slots are updated dynamically.
     
     Slot Management (Admin Panel):
     Admins can monitor booked slots, and free up slots manually if needed.
@@ -64,17 +64,17 @@ Deployment: Vercel
     The project is deployed on Vercel for easy access on mobile and desktop browsers.
 
 ⚡ How to Run the Project
-    1.Clone the repository:git clone <github.com/venkateshrajamoor/ev_recharge_bunk>
-    2.install dependencies :npm i
-    3.Setup your Firebase project and replace firebaseConfig.js with your credentials.
-    4.Start the development server:npm run  dev
-    5.Visit http://localhost:3000 to view the application.
+        1.Clone the repository:git clone <github.com/venkateshrajamoor/ev_recharge_bunk>
+        2.install dependencies :npm i
+        3.Setup your Firebase project and replace firebaseConfig.js with your credentials.
+        4.Start the development server:npm run  dev
+        5.Visit http://localhost:3000 to view the application.
 🔒 Important Notes
-    Authentication: Only registered users can access booking and dashboard features.
-    
-    Slot Management: Max 4 slots can be active at any bunk. Slots are freed manually by Admins after use.
-    
-    Mobile Optimization: The app is responsive but best performance is ensured on updated mobile browsers.
+        Authentication: Only registered users can access booking and dashboard features.
+        
+        Slot Management: Max 4 slots can be active at any bunk. Slots are freed manually by Admins after use.
+        
+        Mobile Optimization: The app is responsive but best performance is ensured on updated mobile browsers.
     
 👨‍💻 Developer
     Venkatesh Rajamoor
