@@ -4,6 +4,8 @@ Electric Vehicle Recharge Bunk
     It also allows EV Station Admins to manage bunk details, slots, and view user bookings.
     The project promotes green transportation by improving access to EV charging points and reducing waiting times at stations.
 
+🔗 Live Demo: https://ev-recharge-bunk-tau.vercel.app/
+
 🔥 Key Features
     For Users:
       1.Register and Login
