@@ -79,3 +79,6 @@ Deployment: Vercel
 👨‍💻 Developer
     Venkatesh Rajamoor
 
+🧑‍💻 Author
+    This project was developed and submitted as part of my internship with UnifiedMentor.
+
